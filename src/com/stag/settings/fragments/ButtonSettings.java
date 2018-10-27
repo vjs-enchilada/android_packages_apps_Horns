@@ -84,7 +84,7 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
         ContentResolver resolver = getActivity().getContentResolver();
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-        addPreferencesFromResource(R.xml.kcuf_settings_button);
+        addPreferencesFromResource(R.xml.stag_settings_button);
 
         final Resources res = getResources();
         final ContentResolver resolver = getActivity().getContentResolver();
@@ -241,7 +241,7 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.KCUF_SETTINGS;
+        return MetricsProto.MetricsEvent.STAG_SETTINGS;
     }
 
 }
